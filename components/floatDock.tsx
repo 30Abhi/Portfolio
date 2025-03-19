@@ -6,7 +6,7 @@ import {
     IconBrandX,
     IconBrandLinkedin,
     IconFileInfo,
-    IconBrandBlogger,
+    
 } from "@tabler/icons-react";
 
 export function FloatDock() {

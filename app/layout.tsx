@@ -55,6 +55,44 @@ export const metadata: Metadata = {
   },
 };
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Abhinav Gupta",
+      url: "https://abhinavgupta.com",
+      sameAs: [
+        "https://linkedin.com/in/abhinav-gupta-9042002ab",
+        "https://github.com/30Abhi",
+      ],
+      jobTitle: "Software Engineer & Web Developer",
+      worksFor: {
+        "@type": "Organization",
+        name: "Freelance & Open Source Community",
+      },
+      knowsAbout: [
+        "Web Development",
+        "React",
+        "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "AI Development",
+        "Competitive Programming",
+        "Data Structures & Algorithms",
+      ],
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: "Maharaja Surajmal Institute of Technology & Management",
+      },
+      description:
+        "I am a passionate Web Developer and Software Engineer with expertise in full-stack development, AI, and open-source contributions. With experience in the MERN stack (MongoDB, Express.js, React, Node.js) and Next.js, I have a strong foundation in development. My competitive programming experience enhances my problem-solving abilities, and I actively contribute to open-source projects and hackathons.",
+    }),
+  }}
+/>;
+
+
 export default function RootLayout({
   children,
 }: {
@@ -103,7 +141,7 @@ export default function RootLayout({
   }}
 />;
 
-        <link rel="canonical" href="https://indrajitsahani.com" />
+        <link rel="canonical" href="https://abhinavgupta.com" />
       </head>
       <body
         className={`${bricolageGrotesque.className} bg-black antialiased z-50 overflow-x-hidden`}
