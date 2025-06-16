@@ -33,7 +33,7 @@ export const useProjectData: ProjectProps[] = [
         shortDesc: "A lightweight, OpenAI‑powered Product API that takes product titles or basic details and returns rich marketing copy—including descriptions, FAQs, bullet points, pros & cons, and meta tags—in JSON format.",
         date: "June 2025",
         Github: "https://github.com/30Abhi/Product_API",
-        LiveLink: "TO BE SHARED",
+        LiveLink: "https://github.com/30Abhi/Product_API",
     },
     {
         image: "https://jpdxhku9tu.ufs.sh/f/rzBzWaFjgJyfyMN1ud5nmXdbqUptaIjL6HKN9FzZhWAgwu5k",
