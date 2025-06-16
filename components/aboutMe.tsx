@@ -10,7 +10,7 @@ const AboutMe = () => {
                     <div className="text-sm md:text-base text-md text-primary/80 text-center sm:text-left">• Fullstack Web Developer • Competitive Programmer  • Tech Enthusiast</div>
                 </h1>
                 <p className="text-md md:text-base text-primary/80 text-center sm:text-left">
-                    Leetcode 1777 rated gloabbly 8% . Passionate for problem‑solving and cutting‑edge technology.I contribute in dynamic, collaborative
+                    Leetcode 1777 rated gloabally 8% . Passionate for problem‑solving and cutting‑edge technology.I contribute in dynamic, collaborative
 environments while delivering impactful solutions.
 
                 </p>
