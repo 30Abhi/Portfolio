@@ -14,7 +14,7 @@ interface ProjectProps {
 
 export const useProjectData: ProjectProps[] = [
     {
-        image: "https://jpdxhku9tu.ufs.sh/f/rzBzWaFjgJyfTvQNU8VnEMNeuT4hcSi27CGyWPHw0DYtORdU",
+        image: "https://jpdxhku9tu.ufs.sh/f/rzBzWaFjgJyfAIdyqLz9F5sewv8dxjlbWYaof6MQAJRUHGyB",
         video: "",
         name: "Leetcode",
         trending: true,
