@@ -1,6 +1,7 @@
 // Define the props for the ProjectCard
+
 interface ProjectProps {
-    image: string;
+    image: string ;
     video: string;
     name: string;
     trending: boolean;
@@ -13,9 +14,31 @@ interface ProjectProps {
 
 export const useProjectData: ProjectProps[] = [
     {
+        image: "https://jpdxhku9tu.ufs.sh/f/rzBzWaFjgJyfTvQNU8VnEMNeuT4hcSi27CGyWPHw0DYtORdU",
+        video: "",
+        name: "Leetcode",
+        trending: true,
+        techStack: [],
+        shortDesc: "Contest Rating: 1777 ( Top 8.9% globally ) , Solved 358+ problems (85 Easy, 205 Medium, 68 Hard) with 901 submissions in the past year and an active streak of 11 days.",
+        date: "CURRENT",
+        Github: "",
+        LiveLink: "https://leetcode.com/u/abhi_ji_ji/",
+    },
+    {
+         image: "https://jpdxhku9tu.ufs.sh/f/rzBzWaFjgJyfN44lDeZIq18P4dtWpMhBlymsrbKg7jiIO9Yf",
+        video: "",
+        name: "ProductAPI ,Advance AI Automation for Database",
+        trending: true,
+        techStack: [ "OpenAI","Node.js", "MongoDB", "Express.js"],
+        shortDesc: "A lightweight, OpenAI‑powered Product API that takes product titles or basic details and returns rich marketing copy—including descriptions, FAQs, bullet points, pros & cons, and meta tags—in JSON format.",
+        date: "June 2025",
+        Github: "https://github.com/30Abhi/Product_API",
+        LiveLink: "TO BE SHARED",
+    },
+    {
         image: "https://jpdxhku9tu.ufs.sh/f/rzBzWaFjgJyfyMN1ud5nmXdbqUptaIjL6HKN9FzZhWAgwu5k",
         video: "https://jpdxhku9tu.ufs.sh/f/rzBzWaFjgJyf9PciiXN28vk9xZ7KyDWpPeNq0fVgbzrn6RIt",
-        name: "CODESANDBOX inspired by projectIDX",
+        name: "CODESANDBOX , remote collaborative coding platform",
         trending: true,
         techStack: ["React.js", "Node.js", "Docker", "Web socket", "Express.js"],
         shortDesc: "Integrated file system and WebSocket-based socket rooms for real-time editor collaboration, efficiently managing tree structures. Code execution is containerized using Docker.",
@@ -34,16 +57,6 @@ export const useProjectData: ProjectProps[] = [
         Github: "https://github.com/30Abhi/RupeeCryptoXXhange",
         LiveLink: "https://rupee-crypto-x-xhange.vercel.app/",
     },
-    {
-        image: "https://jpdxhku9tu.ufs.sh/f/rzBzWaFjgJyfTvQNU8VnEMNeuT4hcSi27CGyWPHw0DYtORdU",
-        video: "",
-        name: "Leetcode",
-        trending: false,
-        techStack: [],
-        shortDesc: "Contest Rating: 1724 ( Top 11.10% globally ) , Problems Solved: 334+ (75 Easy, 195 Medium, 64 Hard) . 901 submissions in the past year with an active streak of 11 days .",
-        date: "CURRENT",
-        Github: "",
-        LiveLink: "https://leetcode.com/u/abhi_ji_ji/",
-    },
+    
  
 ];

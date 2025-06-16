@@ -4,6 +4,18 @@ import React from "react";
 
 const workExperiences = [
     {
+        title: "Full Stack Developer Intern",
+        company: "Aapkabazar",
+        companyUrl: "https://aapkabazar.co/",
+        date: "May, 2025 - July-2025",
+description: [
+    "Automated content generation using DeepSeek AI, producing product descriptions, usage guidelines, FAQs, and benefit summaries with 4× increased throughput, reducing manual effort by 60 hours/month.",
+    "Designed RESTful API architecture with Redis caching layer, reducing redundant endpoints by 35% and improving average response time to 220ms (from 450ms).",
+    "Led full‑stack development of Manager Approval System: Built React interface with role‑based access control, engineered MongoDB aggregation pipelines for real‑time order updates, and reduced approval processing time by 40%.",
+    "Built a statistical dashboard page, designing database pipelines to compute daily averages and totals, and visualizing key metrics with interactive charts—enhancing data‑driven decision making."
+],        isLatest: true,
+    },
+    {
         title: "Teaching Assistant for Data Structures in Java",
         company: "Coding Ninjas",
         companyUrl: "https://www.codingninjas.com/",
@@ -31,7 +43,7 @@ const educationExperiences = [
         institutionUrl: "https://www.msit.in/",
         date: "2023 - 2027",
         description:
-            "I am currently enrolled in the Bachelor of technology (B.Tech) Computer Science and Engineering program at  Maharaja Surajmal Institute of Technology, focusing on core areas like software development, Problem solving, Core fundamentals and Cyber Security. This enhances both my theoretical understanding and practical skills. This program is equipping me with the expertise needed to excel in the tech industry.",
+            "CGPA-9.2  , I am currently enrolled in the Bachelor of technology (B.Tech) Computer Science and Engineering program at  Maharaja Surajmal Institute of Technology, focusing on core areas like software development, Problem solving, Core fundamentals and Cyber Security. This enhances both my theoretical understanding and practical skills. This program is equipping me with the expertise needed to excel in the tech industry.",
         isLatest: false,
     },
 ];
@@ -43,7 +55,7 @@ interface Experience {
     institution?: string;
     institutionUrl?: string;
     date: string;
-    description: string;
+    description: string | string[];
     isLatest: boolean;
 }
 
@@ -83,8 +95,17 @@ const ExperienceItem = ({
             {experience.date}
         </time>
         <p className="mb-4 text-sm sm:text-base font-normal text-primary/70">
-            {experience.description}
-        </p>
+    {Array.isArray(experience.description) ? (
+        <ul className="list-disc ml-5">
+            {experience.description.map((item, idx) => (
+                <li key={idx}>{item}</li>
+            ))}
+        </ul>
+    ) : (
+        experience.description
+    )}
+
+</p>
     </li>
 );
 

@@ -25,13 +25,15 @@ export default Skills;
 
 const DATA = {
     skills: [
+        "Competitive Programming",
+        "Data Strctures and Algorithm ",
+        "Java",
         "React",
+        "ReactNative",
 
         "JavaScript",
         "Next.js",
         "TypeScript",
-        "Tailwind CSS",
-        "ShadCN",
        
         "Node.js",
     
@@ -41,9 +43,9 @@ const DATA = {
         "REST APIs",
         "Docker",
         "WebSocket",
-        "Vercel",
+        "Git",
         "GitHub",
-        "VS Code"
+    
     ]
 
 };

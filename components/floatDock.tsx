@@ -16,7 +16,7 @@ export function FloatDock() {
             icon: (
                 <IconFileInfo stroke={2} className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "https://drive.google.com/file/d/1LilLtLILGE76EHyfWFmo1kKKdieOc82l/view?usp=sharing",
+            href: "https://drive.google.com/file/d/1vi6r0jVTsbFGTNYW4d33terVFe54S8Wi/view?usp=sharing",
             target: "_blank",
         },
 
