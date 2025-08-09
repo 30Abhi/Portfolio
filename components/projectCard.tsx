@@ -76,7 +76,7 @@ export default function ProjectCard({
                     <div className="font-semibold text-sm mt-2">{name}.</div>
                 </div>
                 <div className="text-xs text-primary/70 mb-2 mt-1">{date}</div>
-                <div className="text-xs text-primary/70">
+                <div className="text-xl text-primary/70">
                     <div>{shortDesc}</div>
                 </div>
             </div>

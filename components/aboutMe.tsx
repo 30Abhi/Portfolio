@@ -10,19 +10,16 @@ const AboutMe = () => {
                     <div className="text-sm md:text-base text-md text-primary/80 text-center sm:text-left">• Fullstack Web Developer • Competitive Programmer  • Tech Enthusiast</div>
                 </h1>
                 <p className="text-md md:text-base text-primary/80 text-center sm:text-left">
-                    Leetcode 1777 rated gloabally 8% . Passionate for problem‑solving and cutting‑edge technology.I contribute in dynamic, collaborative
-environments while delivering impactful solutions.
-
+                    LeetCode 1820 (Top 6.5%) ,Passionate problem solver experienced with cutting edge technologies • Collaborative and results oriented delivers scalable, production ready solutions.
                 </p>
 
             </div>
-            <div className="w-full sm:w-1/3 lg:w-4/12 flex justify-center sm:justify-center">
+            <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 relative">
                 <Image
                     src="/Abhi_image.jpg"
                     alt="Profile Picture"
-                    width={500}
-                    height={500}
-                    className="rounded-full border border-secondary h-full w-full "
+                    fill
+                    className="rounded-full border border-secondary object-cover"
                 />
             </div>
         </div>

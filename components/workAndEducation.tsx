@@ -43,7 +43,7 @@ const educationExperiences = [
         institutionUrl: "https://www.msit.in/",
         date: "2023 - 2027",
         description:
-            "CGPA-9.2  , I am currently enrolled in the Bachelor of technology (B.Tech) Computer Science and Engineering program at  Maharaja Surajmal Institute of Technology, focusing on core areas like software development, Problem solving, Core fundamentals and Cyber Security. This enhances both my theoretical understanding and practical skills. This program is equipping me with the expertise needed to excel in the tech industry.",
+            "CGPA-9.26  , I am currently enrolled in the Bachelor of technology (B.Tech) Computer Science and Engineering program at  Maharaja Surajmal Institute of Technology, focusing on core areas like software development, Problem solving, Core fundamentals and Cyber Security. This enhances both my theoretical understanding and practical skills. This program is equipping me with the expertise needed to excel in the tech industry.",
         isLatest: false,
     },
 ];

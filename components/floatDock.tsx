@@ -6,7 +6,7 @@ import {
     IconBrandX,
     IconBrandLinkedin,
     IconFileInfo,
-    
+    IconCode,
 } from "@tabler/icons-react";
 
 export function FloatDock() {
@@ -16,7 +16,7 @@ export function FloatDock() {
             icon: (
                 <IconFileInfo stroke={2} className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "https://drive.google.com/file/d/1vi6r0jVTsbFGTNYW4d33terVFe54S8Wi/view?usp=sharing",
+            href: "https://drive.google.com/file/d/1oM7yU9_-_Zw4dPr8ipr7zYGMulbn_euS/view?usp=drive_link",
             target: "_blank",
         },
 
@@ -26,8 +26,18 @@ export function FloatDock() {
                 <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "https://github.com/30Abhi",
+            target: "_blank",
         },
-       
+
+        // LeetCode link added
+        {
+            title: "LeetCode",
+            icon: (
+                <IconCode stroke={2} className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+            ),
+            href: "https://leetcode.com/u/abhi_ji_ji/",
+            target: "_blank",
+        },
 
         {
             title: "Linkedin",
@@ -35,6 +45,7 @@ export function FloatDock() {
                 <IconBrandLinkedin stroke={2} className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "https://www.linkedin.com/in/abhinav-gupta-9042002ab/",
+            target: "_blank",
         },
 
         {
@@ -43,6 +54,7 @@ export function FloatDock() {
                 <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "https://x.com/AbhinavGupta_05",
+            target: "_blank",
         },
 
     ];
