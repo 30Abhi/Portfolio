@@ -4,22 +4,33 @@ import React from "react";
 
 const workExperiences = [
     {
+        title: "Software Developer Intern",
+        company: "Kerrsor",
+        companyUrl: "https://www.kerrsor.com/",
+        date: "August- 2025 , November-2025",
+description: [
+    "Engineered a new skin analysis platform from scratch, managing the full cycle integration of AI models from development with data science team to final hosting and deployment.",
+    "Acted as the primary technical consultant for clients, defining project scope, proposing scalable architectures, and designing intuitive user flows to meet business objectives",
+    "Optimized the end to end application, achieving a 60% reduction in system wide response time and significantly improving software performance.",
+],        isLatest: true,
+    },
+    {
         title: "Full Stack Developer Intern",
         company: "Aapkabazar",
         companyUrl: "https://aapkabazar.co/",
-        date: "May, 2025 - July-2025",
+        date: "May- 2025 , July-2025",
 description: [
     "Automated content generation using DeepSeek AI, producing product descriptions, usage guidelines, FAQs, and benefit summaries with 4× increased throughput, reducing manual effort by 60 hours/month.",
     "Designed RESTful API architecture with Redis caching layer, reducing redundant endpoints by 35% and improving average response time to 220ms (from 450ms).",
     "Led full‑stack development of Manager Approval System: Built React interface with role‑based access control, engineered MongoDB aggregation pipelines for real‑time order updates, and reduced approval processing time by 40%.",
     "Built a statistical dashboard page, designing database pipelines to compute daily averages and totals, and visualizing key metrics with interactive charts—enhancing data‑driven decision making."
-],        isLatest: true,
+],        isLatest: false,
     },
     {
         title: "Teaching Assistant for Data Structures in Java",
         company: "Coding Ninjas",
         companyUrl: "https://www.codingninjas.com/",
-        date: "Feb, 2024 - May-2024",
+        date: "Feb- 2024 , May-2024",
         description:
             "Facilitated interactive learning sessions for a Data Structures in Java course, clarifying complex concepts and guiding students to overcome programming challenges; contributed to a 20% increase in course completion rate.",
         isLatest: true,

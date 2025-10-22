@@ -25,10 +25,12 @@ const Skills = () => {
 export default Skills;
 const DATA = {
     skills: [
+        "Competitive Programming",
         "Data Structures & Algorithms",
         "Java",
         "JavaScript",
         "TypeScript",
+        "DevOps",
         "React",
         "Next.js",
         "Node.js",
@@ -45,7 +47,7 @@ const DATA = {
         "Docker",
         "Git",
         "GitHub",
-        "Competitive Programming"
+        
             
     ]
 

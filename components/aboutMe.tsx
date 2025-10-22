@@ -10,7 +10,7 @@ const AboutMe = () => {
                     <div className="text-sm md:text-base text-md text-primary/80 text-center sm:text-left">• Fullstack Web Developer • Competitive Programmer  • Tech Enthusiast</div>
                 </h1>
                 <p className="text-md md:text-base text-primary/80 text-center sm:text-left">
-                    LeetCode 1820 (Top 6.5%) ,Passionate problem solver experienced with cutting edge technologies • Collaborative and results oriented delivers scalable, production ready solutions.
+                    LeetCode Knight 1906 (Top 4%) ,Passionate problem solver experienced with cutting edge technologies • Collaborative and results oriented delivers scalable, production ready solutions.
                 </p>
 
             </div>
